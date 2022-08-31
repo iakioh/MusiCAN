@@ -1,1 +1,4 @@
 *.DS_Store*
+data preparation/unprepared_data/
+data preparation/prepared_data/
+
