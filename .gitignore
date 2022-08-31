@@ -2,3 +2,5 @@
 data preparation/unprepared_data/
 data preparation/prepared_data/
 
+.DS_Store
+.DS_Store
