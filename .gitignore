@@ -1,5 +1,4 @@
-*.DS_Store
+.DS_Store
 data_preparation/unprepared_data/
 data_preparation/prepared_data/
 execution/trained_models/*
-.DS_Store
