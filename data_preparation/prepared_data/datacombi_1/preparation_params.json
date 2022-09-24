@@ -1,0 +1,15 @@
+{
+      "n_pitches": 72,
+      "lowest_pitch": 24,
+      "beat_resolution": 4,
+      "beats_per_instance": 48,
+      "genres": [
+            "Latin",
+            "Electronic",
+            "Country",
+            "RnB",
+            "Pop_Rock",
+            "Classical",
+            "Game"
+      ]
+}
