@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Rothe"
+  given-names: "Kai"
+- family-names: "Källberg"
+  given-names: "Birk"
+title: "MusiCAN - a music-generating Creative Adversarial Network"
+version: 1.0.0
+date-released: 2022-09-25
+url: "https://github.com/iakioh/MusiCAN"
