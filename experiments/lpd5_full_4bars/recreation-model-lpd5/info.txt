@@ -1,0 +1,23 @@
+
+Training info: 10k-vanilla-musegan
+=======================
+
+models: MusiGen, MusiDis (note [1])
+dataset: lpd5_full_4bars
+
+rounds = 10000
+batch_size = 25
+discriminator_rounds = 5
+loss_function = WGAN-GP
+
+adam_optimizer_params:
+    gen: (lr = 0.001, betas = (0.5, 0.9))
+    dis: (lr = 0.001, betas = (0.5, 0.9))
+
+additional comments:
+    Training to see if as-close-as-possible hyperparameter settings to museGAN 
+    paper allow replication of their performance
+    
+    [1] Generator output layer is set to be only binarized if in testing mode
+        (museGAN setting)
+    

@@ -1,0 +1,19 @@
+
+Training info: 8k-test-mod2
+=======================
+
+models: MusiGenMod2, MusiDisMod2
+dataset: lpd5_full_4bars
+
+rounds = 8000
+batch_size = 25
+discriminator_rounds = 5
+loss_function = WGAN-GP-norm
+checkpoints   = [2500, 5000]
+
+adam_optimizer_params:
+    gen: (lr = 0.001, betas = (0.5, 0.9))
+    dis: (lr = 0.001, betas = (0.5, 0.9))
+
+additional comments:
+

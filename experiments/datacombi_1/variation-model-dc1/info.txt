@@ -1,0 +1,19 @@
+
+Training info: 8k-mod2-datacombi-1
+=======================
+
+models: MusiGenMod2, MusiDisMod2
+dataset: datacombi_1
+
+rounds = 8000
+batch_size = 25
+discriminator_rounds = 5
+loss_function = WGAN-GP+norm
+checkpoints   = [2000, 4000]
+
+adam_optimizer_params:
+    gen: (lr = 0.001, betas = (0.5, 0.9))
+    dis: (lr = 0.001, betas = (0.5, 0.9))
+
+additional comments:
+
